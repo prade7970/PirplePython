@@ -1,31 +1,6 @@
-import math
-import os
-import random
-import re
-import sys
+class Cat:
+    def __init__(self,name="Cat",breed):
+        self.name = name
+        self.breed = breed
 
-
-
-if __name__ == '__main__':
-    s = input()
-    s_l= list(s)
-    count_l=[]
-    #d={}
-    count=0
-    j=0
-    for i in range(len(s_l)):
-       c=s_l.count(s[i])
-       count_l.append(c)
-       if j<3:
-           count_l.sort(reverse=True)
-           j+=1
-    print(count_l)
-       
-      
-             
-    
-      
-     
-       
-       
-       
+myCat = Cat("Mia","Persian")
